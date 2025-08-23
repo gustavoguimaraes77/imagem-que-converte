@@ -22,6 +22,7 @@ const HeroSection = () => {
           variant="hero" 
           size="xl"
           className="animate-pulse hover:animate-none"
+          onClick={() => document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Quero Vender Mais
         </Button>

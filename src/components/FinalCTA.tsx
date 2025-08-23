@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 const FinalCTA = () => {
-  return <section className="py-20 bg-gradient-hero relative overflow-hidden">
+  return <section id="final-cta" className="py-20 bg-gradient-hero relative overflow-hidden">
       <div className="absolute inset-0 bg-black/30"></div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
