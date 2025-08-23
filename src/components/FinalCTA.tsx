@@ -18,7 +18,12 @@ const FinalCTA = () => {
             Transforme suas imagens em <span className="font-bold">ferramentas de vendas irresistíveis</span> que despertam desejo e geram resultados reais.
           </p>
           
-          <Button variant="cta" size="xl" className="group shadow-2xl">
+          <Button 
+            variant="cta" 
+            size="xl" 
+            className="group shadow-2xl"
+            onClick={() => window.open('https://wa.me/5511953828179?text=Olá!%20Achei%20interessante%20e%20quero%20alavancar%20minhas%20vendas!', '_blank')}
+          >
             Quero minhas imagens agora
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </Button>
