@@ -1,10 +1,7 @@
 import { Instagram, Facebook, Linkedin, Mail, Phone } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-foreground text-background py-16">
+  return <footer className="bg-foreground text-background py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Logo and description */}
@@ -66,11 +63,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-secondary" />
-                <span className="text-background/80">contato@olharquevende.com</span>
+                <span className="text-background/80">olharquevendecontato@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-secondary" />
-                <span className="text-background/80">(11) 99999-9999</span>
+                <span className="text-background/80">(11) 95382-8179</span>
               </div>
             </div>
           </div>
@@ -83,8 +80,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
