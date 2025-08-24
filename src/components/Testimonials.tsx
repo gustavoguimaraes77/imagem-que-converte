@@ -6,12 +6,12 @@ const Testimonials = () => {
     {
       text: "Minhas vendas aumentaram em apenas 2 semanas depois que comecei a usar as imagens deles.",
       author: "Ana Silva",
-      business: "Restaurante da Ana"
+      business: "Cantinho do Açaí"
     },
     {
       text: "Agora meus anúncios no iFood e Instagram têm muito mais cliques. Recomendo!",
       author: "Carlos Santos",
-      business: "Burguer King Carlos"
+      business: "Santa Cruz Pizzaria"
     },
     {
       text: "Profissionalismo e resultado, foi o que encontrei na Olhar que Vende.",
