@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import beforeAfter1 from "@/assets/before-after-1.jpg";
-import beforeAfter2 from "@/assets/before-after-2.jpg";
-import beforeAfter3 from "@/assets/before-after-3.jpg";
+import beforeAfter1 from "@/assets/before-after-1.png";
+import beforeAfter2 from "@/assets/before-after-2.png";
+import beforeAfter3 from "@/assets/before-after-3.png";
 
 const BeforeAfter = () => {
   const [currentImage, setCurrentImage] = useState(0);
